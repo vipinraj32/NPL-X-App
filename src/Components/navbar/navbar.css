@@ -15,6 +15,7 @@
 
 .npl_navbar-links_logo {
   margin-right: 2rem;
+  color: white;
 }
 
 .npl_navbar-links_logo img {
@@ -111,7 +112,7 @@
 
 @media screen and (max-width: 700px) {
   .gpt3__navbar {
-    padding: 2rem 4rem;
+    padding: 1.5rem 4rem;
   }
 }
 

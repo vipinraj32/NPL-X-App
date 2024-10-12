@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className='npl_navbar'>
       <div className="npl_navbar-links">
         <div className="
-        npl_navbar-links_logo"><img src={logo} alt="logo" />
+        npl_navbar-links_logo"><h1><a href="home">NPL-X</a></h1>
       </div>
       <div div className='npl_navbar-links_container'>
        <p><a href="#home"> Home</a></p>

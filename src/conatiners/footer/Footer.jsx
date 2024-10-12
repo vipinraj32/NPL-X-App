@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="npl_footer-links">
         <div className="npl_footer-links_logo">
          
-          <img src={gpt3logo} alt="loho" />
+          <h1>NPL-X</h1>
            <p>Lorem ipsum, e maxime corporis nam quam enim.</p>
         </div>
         <div className="npl_footer-links_div">
