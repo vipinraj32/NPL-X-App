@@ -1,0 +1,144 @@
+.npl_footer{
+    display: flex;
+   
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+
+
+}
+
+.npl_footer-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+.npl_footer-heading h1{
+    font-family: var(--font-family);
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+
+}
+.npl_footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin-bottom: 10rem;
+    cursor: pointer;
+
+}
+
+.npl_footer-heading p{
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    word-spacing: 2px;
+
+}
+
+.npl_footer-btn p{
+   box-sizing: border-box;
+   font-family:var(--font-family);
+   font-size: 18px;
+   line-height: 21px;
+   color: #ffffff;
+   word-spacing: 2px;
+    
+}
+
+.npl_footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+
+}
+
+.npl_footer-links div{
+    width:250px ;
+    margin: 1rem;
+
+
+}
+.npl_footer-links_logo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.npl_footer-links_logo img{
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+
+}
+
+.npl_footer-links_logo p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+
+}
+
+.npl_footer-links_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.npl_footer-links_div h4{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.npl_footer-links_div p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.npl_footer-copyright{
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.npl_footer-copyright p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    /* font-feature-settings: 'liga' off; */
+    color: #ffffff;
+}
+
+@media screen and(max-width)  {
+    .npl_footer-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+
+    }
+}

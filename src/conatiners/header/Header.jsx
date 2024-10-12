@@ -6,7 +6,7 @@ import './header.css';
 const Header = () => (
   <div className="npl_header section__padding" id="home">
     <div className="npl_header-content">
-      <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
+      <h1 className="gradient__text">Let&apos;s Build Something amazing with NPL-X</h1>
       <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
 
       <div className="npl_header-content_input">
